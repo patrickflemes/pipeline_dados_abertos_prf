@@ -1,0 +1,5 @@
+question_id,question,answer,metric_value,explanation
+1,Qual o pior horário para dirigir?,18h,"4,102 acidentes",Horário de pico com maior volume de acidentes
+2,Qual o pior dia da semana?,sábado,"8,465 acidentes",Dia com maior volume de acidentes
+3,Qual o estado mais perigoso?,MG,"6,987 acidentes",Estado com maior volume de acidentes
+4,Qual a rodovia mais perigosa?,BR-101,"9,477 acidentes",Rodovia com maior volume de acidentes

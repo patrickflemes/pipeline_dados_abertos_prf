@@ -1,0 +1,206 @@
+
+================================================================================
+                        DATA DICTIONARY
+                PRF Traffic Accident Data Pipeline
+================================================================================
+
+This document describes all fields in the output CSV files.
+
+================================================================================
+1. ACCIDENTS_DETAILED.CSV - Main enriched dataset
+================================================================================
+
+IDENTITY & TEMPORAL
+-------------------
+id                      : Unique accident ID
+data_inversa            : Date (YYYY-MM-DD)
+date                    : Parsed date
+datetime                : Full datetime
+horario                 : Time (HH:MM:SS)
+hour                    : Hour of day (0-23)
+year                    : Year
+month                   : Month (1-12)
+month_name              : Month name in Portuguese
+quarter                 : Quarter (1-4)
+day_of_month            : Day of month (1-31)
+day_of_week             : Day of week (0=Mon, 6=Sun)
+day_of_week_name_pt     : Day name in Portuguese
+week_of_year            : ISO week number
+is_weekend              : Weekend flag (0/1)
+is_rush_hour            : Rush hour flag (0/1)
+is_business_hours       : Business hours flag (0/1)
+time_period             : Time period (madrugada/manha/tarde/noite)
+time_bucket_4h          : 4-hour time bucket
+dia_semana              : Original day of week (Portuguese)
+fase_dia                : Day phase (Pleno dia/Noite/Anoitecer/Amanhecer)
+
+GEOGRAPHIC
+----------
+uf                      : State code (2 letters)
+state_region            : Brazilian region (N/NE/SE/S/CO)
+br                      : Federal highway number
+km                      : Kilometer marker
+km_rounded              : Rounded km (for grouping)
+municipio               : City name
+city_normalized         : Normalized city name
+latitude                : Latitude coordinate
+longitude               : Longitude coordinate
+is_urban                : Urban area flag (0/1)
+uso_solo                : Original land use field
+regional                : PRF regional office
+delegacia               : PRF local station
+uop                     : Operational unit
+
+ACCIDENT CHARACTERISTICS
+------------------------
+tipo_acidente           : Accident type
+causa_acidente          : Accident cause
+cause_category          : Cause category (human/mechanical/environmental)
+classificacao_acidente  : Severity class (Fatal/Feridas/Sem Vítimas)
+severity_code           : Severity code (3=fatal, 2=injured, 1=none)
+
+ROAD & WEATHER CONDITIONS
+-------------------------
+condicao_metereologica  : Weather conditions
+weather_clear           : Clear weather flag (0/1)
+weather_rain            : Rain flag (0/1)
+weather_fog             : Fog flag (0/1)
+tipo_pista              : Road type (Simples/Dupla/Múltipla)
+tracado_via             : Road layout
+has_curve               : Has curve flag (0/1)
+has_slope               : Has slope flag (0/1)
+has_intersection        : Has intersection flag (0/1)
+sentido_via             : Direction (Crescente/Decrescente)
+
+VICTIMS & VEHICLES
+------------------
+pessoas                 : Total people involved
+mortos                  : Deaths
+feridos_leves           : Light injuries
+feridos_graves          : Serious injuries
+feridos                 : Total injuries
+ilesos                  : Unharmed
+ignorados               : Unknown status
+veiculos                : Number of vehicles
+
+RISK SCORES (0-100)
+-------------------
+severity_score          : Severity score based on victims
+time_risk_score         : Time-based risk score
+location_risk_score     : Location-based risk score
+condition_risk_score    : Condition-based risk score
+composite_risk_score    : Overall composite risk score
+
+PROBABILITY METRICS
+-------------------
+accident_probability_index  : Accident probability multiplier
+fatality_rate              : Death rate per person (%)
+injury_rate                : Injury rate per person (%)
+fatality_probability       : Probability of death (0/1)
+injury_probability         : Probability of injury (%)
+danger_percentile          : Danger percentile (0-100)
+
+RISK FLAGS (0/1)
+----------------
+is_high_risk            : High risk flag (top 20%)
+is_hotspot              : Part of accident cluster
+alcohol_involved        : Alcohol involved
+driver_asleep           : Driver asleep/fatigue
+speed_related           : Speed was factor
+mechanical_failure      : Mechanical failure
+weather_related         : Weather was factor
+is_night                : Nighttime accident
+poor_visibility         : Poor visibility conditions
+
+RANKINGS
+--------
+hour_danger_rank        : Hour danger rank (1=worst)
+day_danger_rank         : Day danger rank (1=worst)
+state_danger_rank       : State danger rank (1=worst)
+highway_danger_rank     : Highway danger rank (1=worst)
+
+MAP VISUALIZATION
+-----------------
+marker_color            : Hex color for map marker
+marker_size             : Marker size (small/medium/large/xlarge)
+marker_opacity          : Marker opacity (0-1)
+tooltip_text            : Short tooltip text
+popup_html              : Full HTML popup content
+
+GEOGRAPHIC ANALYSIS
+-------------------
+cluster_id              : Geographic cluster ID (-1 = no cluster)
+segment_id              : Highway segment ID
+
+================================================================================
+2. RISK_BY_TIME.CSV - Time-based risk analysis
+================================================================================
+time_dimension          : Dimension type (hour/day_of_week/day_of_month/month)
+time_value              : Value (e.g., "18h", "sábado", "Dia 15", "janeiro")
+accident_count          : Number of accidents
+deaths                  : Total deaths
+injuries                : Total injuries
+avg_severity            : Average severity score
+avg_risk_score          : Average risk score
+fatality_rate           : Fatality rate (%)
+injury_rate             : Injury rate (%)
+risk_rank               : Risk rank within dimension
+is_worst                : Top 10% worst flag (0/1)
+is_best                 : Bottom 10% best flag (0/1)
+
+================================================================================
+3. RISK_BY_LOCATION.CSV - Location-based risk analysis
+================================================================================
+location_type           : Type (state/highway/city)
+location_name           : Name (e.g., "MG", "BR-101", "Brasília")
+accident_count          : Number of accidents
+deaths                  : Total deaths
+injuries                : Total injuries
+avg_severity            : Average severity score
+avg_risk_score          : Average risk score
+top_cause               : Most common cause
+top_accident_type       : Most common type
+accidents_per_100km     : Accidents per 100km (highways only)
+fatality_rate           : Fatality rate (%)
+risk_rank               : Risk rank within type
+
+================================================================================
+4. HIGHWAY_SEGMENTS_RISK.CSV - Highway segment analysis
+================================================================================
+highway                 : Highway number
+km_start                : Segment start km
+km_end                  : Segment end km
+segment_id              : Unique segment ID
+accident_count          : Accidents in segment
+state                   : Primary state
+primary_city            : Primary city
+deaths                  : Total deaths
+injuries                : Total injuries
+center_latitude         : Segment center latitude
+center_longitude        : Segment center longitude
+avg_severity            : Average severity
+top_cause               : Most common cause
+top_accident_type       : Most common type
+top_weather             : Most common weather
+avg_hour                : Average hour of accidents
+accidents_per_km        : Accidents per km
+deaths_per_km           : Deaths per km
+risk_score              : Risk score
+danger_rank             : Danger rank (1=worst)
+risk_category           : Risk category (baixo/medio/alto/extremo)
+segment_label           : Full segment label
+
+================================================================================
+5. OTHER OUTPUT FILES
+================================================================================
+
+WORST_SCENARIOS.CSV         : Most dangerous combinations
+DANGER_RANKINGS.CSV         : Comprehensive rankings
+ACCIDENTS_MAP_POINTS.CSV    : Map visualization data
+ACCIDENT_HEATMAP_CLUSTERS.CSV : Geographic clusters
+DAILY_RISK_CALENDAR.CSV     : Daily risk scores
+WORST_ANSWERS.CSV           : Direct answers to "worst" questions
+
+================================================================================
+For more information, see METRICAS_RESUMO.md
+================================================================================

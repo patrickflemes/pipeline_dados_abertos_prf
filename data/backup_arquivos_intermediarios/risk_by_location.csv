@@ -1,0 +1,190 @@
+accident_count,deaths,injuries,avg_severity,avg_risk_score,top_cause,top_accident_type,accidents_per_100km,location_type,location_name,fatality_rate,risk_rank
+200,18,220,12.114305555555557,95.63132490914057,Reação tardia ou ineficiente do condutor,Colisão traseira,state,AC,,9.0,1.0
+481,77,559,15.338177058765293,100.54013439462159,Velocidade Incompatível,Colisão transversal,state,AL,,16.008316008316008,1.0
+106,19,107,13.171945193171608,118.83258949914178,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,state,AM,,17.92452830188679,1.0
+123,13,197,11.618337850045167,97.9168519096978,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,state,AP,,10.569105691056912,1.0
+3068,426,3699,12.213417707734338,111.10811455346024,Reação tardia ou ineficiente do condutor,Colisão traseira,state,BA,,13.885267275097785,1.0
+1043,129,1139,12.535949118416191,98.38616683338668,Ausência de reação do condutor,Colisão traseira,state,CE,,12.36816874400767,1.0
+753,37,755,8.315199519382785,85.0437934188295,Ausência de reação do condutor,Colisão traseira,state,DF,,4.913678618857902,1.0
+1952,114,2430,10.649485493169573,96.75806790091961,Ausência de reação do condutor,Colisão transversal,state,ES,,5.84016393442623,1.0
+2325,224,2578,10.466821430347535,98.20326329633863,Reação tardia ou ineficiente do condutor,Colisão traseira,state,GO,,9.634408602150538,1.0
+852,185,887,16.198947830990086,109.58414139712208,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,state,MA,,21.71361502347418,1.0
+6987,568,8698,10.720219219658304,118.5632042812302,Ausência de reação do condutor,Saída de leito carroçável,state,MG,,8.12938314011736,1.0
+1221,110,1278,10.671936546936546,96.97532680327502,Ausência de reação do condutor,Saída de leito carroçável,state,MS,,9.00900900900901,1.0
+1947,182,2081,10.023318092752092,99.18807515078893,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,state,MT,,9.347714432460196,1.0
+793,162,873,14.547862329149815,107.31234102361914,Ausência de reação do condutor,Colisão traseira,state,PA,,20.42875157629256,1.0
+1509,108,1773,12.168655790126962,93.53004870153705,Ausência de reação do condutor,Colisão traseira,state,PB,,7.157057654075547,1.0
+2152,240,2398,13.092539542712434,101.11290505537727,Ausência de reação do condutor,Colisão traseira,state,PE,,11.152416356877323,1.0
+1097,129,1246,13.357521013797662,97.78682153772675,Ausência de reação do condutor,Colisão transversal,state,PI,,11.759343664539653,1.0
+5595,453,6212,9.495410242503546,111.70239391856316,Reação tardia ou ineficiente do condutor,Colisão traseira,state,PR,,8.096514745308312,1.0
+4637,257,5521,9.561524235235687,107.59497331047794,Ausência de reação do condutor,Colisão traseira,state,RJ,,5.542376536553807,1.0
+1182,83,1364,11.371876584813283,92.8211606538306,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,state,RN,,7.021996615905245,1.0
+1077,75,1240,9.539214602585076,92.97901346094373,Reação tardia ou ineficiente do condutor,Colisão transversal,state,RO,,6.963788300835655,1.0
+111,23,156,14.371670244219263,107.1558794479052,Ingestão de álcool pelo condutor,Saída de leito carroçável,state,RR,,20.72072072072072,1.0
+3660,238,4134,8.88748965975911,103.26587155513914,Ausência de reação do condutor,Colisão transversal,state,RS,,6.502732240437159,1.0
+6001,341,6867,9.542360053814225,113.45338848060247,Reação tardia ou ineficiente do condutor,Colisão traseira,state,SC,,5.682386268955174,1.0
+411,35,449,10.937303369785122,93.70856657067786,Ausência de reação do condutor,Colisão traseira,state,SE,,8.51581508515815,1.0
+3427,152,3612,8.330693737959917,96.93016007312818,Reação tardia ou ineficiente do condutor,Colisão traseira,state,SP,,4.435366209512694,1.0
+503,75,567,11.98506787180011,100.74635418272418,Ausência de reação do condutor,Colisão traseira,state,TO,,14.910536779324055,1.0
+124,0,48,2.0904377880184333,566.4009748293255,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-0,12400.0,0.0,1.0
+340,65,416,15.49791908633372,107.50278972370384,Ausência de reação do condutor,Colisão transversal,highway,BR-10,149.7797356828194,19.11764705882353,1.0
+517,51,523,9.916428174326768,91.49339923009217,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-20,160.55900621118013,9.864603481624759,1.0
+3,1,3,50.0,122.21478694332438,Ausência de reação do condutor,Capotamento,highway,BR-30,100.0,33.33333333333333,1.0
+2559,153,3065,9.821771260263446,107.83511847924336,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-40,206.53753026634382,5.978898007033997,1.0
+569,32,576,9.429059614472619,106.39496593796729,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-50,163.50574712643677,5.623901581722319,1.0
+753,55,827,11.064533352879966,89.33859934359502,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-60,153.98773006134968,7.3041168658698545,1.0
+812,62,898,9.8720873406834,94.90584651451458,Ausência de reação do condutor,Colisão traseira,highway,BR-70,221.85792349726773,7.635467980295567,1.0
+103,15,112,12.539644012944983,101.12671609008162,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-80,132.05128205128204,14.563106796116504,1.0
+9477,559,10978,10.086395558920264,103.42570400928187,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-101,339.6774193548387,5.8984910836762685,1.0
+380,50,398,14.970488721804513,99.65152180710521,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,highway,BR-104,145.59386973180077,13.157894736842104,1.0
+251,40,340,14.507708297245799,108.51297101862417,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-110,135.67567567567568,15.936254980079681,1.0
+8129,511,8959,9.195372114766293,105.67606149326005,Ausência de reação do condutor,Colisão traseira,highway,BR-116,316.1804745235317,6.286136056095461,1.0
+382,74,405,13.28317959649238,105.66174282340266,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-135,156.55737704918033,19.3717277486911,1.0
+43,3,56,11.459302325581396,121.16841029580615,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-146,116.21621621621621,6.976744186046512,1.0
+2107,209,2373,10.269572202290435,103.63858266997583,Ausência de reação do condutor,Colisão traseira,highway,BR-153,168.42525979216626,9.919316563834837,1.0
+39,5,34,10.115384615384615,107.40813250212422,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-155,114.70588235294117,12.82051282051282,1.0
+44,0,92,10.539772727272727,86.61939980273617,Acessar a via sem observar a presença dos outros veículos,Saída de leito carroçável,highway,BR-156,133.33333333333331,0.0,1.0
+523,70,542,11.646433882667152,106.57813646912525,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-158,128.18627450980392,13.38432122370937,1.0
+1866,162,1943,9.710772315378774,101.05202538397653,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-163,168.25969341749322,8.681672025723474,1.0
+306,34,362,11.386144310500327,101.56319549147018,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-174,139.72602739726028,11.11111111111111,1.0
+79,14,105,12.85196905766526,98.59326979591172,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-210,202.56410256410254,17.72151898734177,1.0
+452,96,454,16.03861700711957,105.4927084880506,Ausência de reação do condutor,Colisão traseira,highway,BR-222,144.40894568690098,21.238938053097346,1.0
+212,33,270,13.498468712813883,103.05021385138977,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-226,122.54335260115607,15.566037735849056,1.0
+1322,140,1506,12.713550678603628,95.04976881153604,Ausência de reação do condutor,Colisão traseira,highway,BR-230,175.33156498673742,10.59001512859304,1.0
+605,76,710,14.01941087729858,99.1627587094377,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-232,155.12820512820514,12.561983471074381,1.0
+233,31,267,13.898068669527897,97.48671308589337,Ausência de reação do condutor,Colisão traseira,highway,BR-235,142.94478527607362,13.304721030042918,1.0
+202,61,284,15.171941115944477,119.71429246781825,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-242,119.52662721893492,30.198019801980198,1.0
+248,50,350,12.966557628394314,122.19677115386999,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-251,120.3883495145631,20.161290322580644,1.0
+82,4,119,11.90650406504065,93.41329819303898,Reação tardia ou ineficiente do condutor,Colisão transversal,highway,BR-259,115.49295774647888,4.878048780487805,1.0
+1277,127,1549,11.638584716148678,110.92833307785016,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-262,141.26106194690266,9.945184025058731,1.0
+1,0,0,0.0,119.34856731158126,Reação tardia ou ineficiente do condutor,Engavetamento,highway,BR-265,100.0,0.0,1.0
+200,13,266,10.272857142857141,106.25481849030614,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-267,105.82010582010581,6.5,1.0
+35,9,46,16.698039215686272,120.62949860229081,Reação tardia ou ineficiente do condutor,Colisão transversal,highway,BR-272,112.90322580645163,25.71428571428571,1.0
+1568,124,1803,9.229727248053624,110.46984892803307,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-277,173.83592017738357,7.908163265306123,1.0
+675,41,816,9.610652557319224,114.84666164679199,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-280,163.43825665859563,6.074074074074074,1.0
+991,77,1287,10.27828296269265,113.68649783479037,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-282,141.97707736389685,7.769929364278506,1.0
+308,21,405,9.833706967635539,103.66110003480813,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-285,117.55725190839695,6.8181818181818175,1.0
+87,3,100,8.378762999452654,100.46408202613928,Reação tardia ou ineficiente do condutor,Colisão transversal,highway,BR-287,150.0,3.4482758620689653,1.0
+591,31,712,7.910985919531282,97.36613682286205,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-290,166.94915254237287,5.245346869712352,1.0
+87,14,109,11.56704980842912,111.10674544404063,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-293,117.56756756756756,16.091954022988507,1.0
+324,24,365,10.911093964334706,88.60883614067083,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,highway,BR-304,151.4018691588785,7.4074074074074066,1.0
+1,0,1,3.333333333333333,86.41672986442785,Retorno proibido,Colisão transversal,highway,BR-307,100.0,0.0,1.0
+21,5,28,17.218820861678005,114.655063445195,Ausência de reação do condutor,Colisão frontal,highway,BR-308,123.52941176470588,23.809523809523807,1.0
+892,143,1037,15.092143811594484,103.42609453270555,Ausência de reação do condutor,Colisão traseira,highway,BR-316,161.01083032490976,16.031390134529147,1.0
+41,8,33,17.678861788617887,100.11954139909658,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-317,105.12820512820514,19.51219512195122,1.0
+122,13,120,9.958333333333334,90.88201136374998,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-319,230.18867924528303,10.655737704918032,1.0
+728,50,843,9.363579989872283,103.90367802140665,Ausência de reação do condutor,Colisão traseira,highway,BR-324,298.3606557377049,6.868131868131869,1.0
+40,6,54,15.75,114.28447359168999,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-330,114.28571428571428,15.0,1.0
+542,42,618,11.521481286241434,93.44757565280864,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-343,152.67605633802816,7.7490774907749085,1.0
+39,11,49,15.73328305681247,119.395407888579,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-349,111.42857142857143,28.205128205128204,1.0
+79,1,93,8.430379746835444,117.97038983248719,Velocidade Incompatível,Colisão transversal,highway,BR-354,106.75675675675676,1.2658227848101267,1.0
+156,10,212,11.087301587301587,112.04289163915627,Ausência de reação do condutor,Colisão transversal,highway,BR-356,138.05309734513273,6.41025641025641,1.0
+3,1,6,12.0,108.01748274680938,Animais na Pista,Atropelamento de Animal,highway,BR-359,100.0,33.33333333333333,1.0
+24,5,34,21.197916666666668,105.59655404483942,Acessar a via sem observar a presença dos outros veículos,Colisão frontal,highway,BR-361,120.0,20.833333333333336,1.0
+1638,131,1800,10.027857711918971,93.40095119919314,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-364,193.38842975206612,7.997557997557997,1.0
+458,70,615,12.264202137018732,121.86070372012016,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-365,126.17079889807164,15.283842794759824,1.0
+98,3,116,9.94849368318756,108.56877301722294,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-367,204.16666666666666,3.061224489795918,1.0
+663,59,795,10.081198485610251,111.82601866775329,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-369,153.82830626450118,8.89894419306184,1.0
+173,27,162,10.942196531791907,118.01507871609637,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-373,128.14814814814815,15.606936416184972,1.0
+1280,85,1405,9.092187517194251,105.20706925614085,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-376,162.64294790343075,6.640625,1.0
+2476,131,2915,9.407175455251641,108.72142267280822,Ausência de reação do condutor,Colisão traseira,highway,BR-381,188.2889733840304,5.290791599353796,1.0
+454,38,574,9.68463982175436,100.89758566759977,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-386,126.46239554317549,8.370044052863436,1.0
+256,18,251,9.493303571428571,101.86655771406107,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-392,123.07692307692308,7.03125,1.0
+270,26,358,11.755228208005986,110.38602907894963,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-393,161.67664670658684,9.62962962962963,1.0
+31,8,51,12.983870967741936,109.51069101148423,Ingestão de álcool pelo condutor,Colisão traseira,highway,BR-401,119.23076923076923,25.806451612903224,1.0
+45,18,51,21.447089947089946,119.0276443859494,Ausência de reação do condutor,Colisão frontal,highway,BR-402,109.75609756097562,40.0,1.0
+5,3,2,33.0,115.86630924340261,Acessar a via sem observar a presença dos outros veículos,Atropelamento de Pedestre,highway,BR-403,100.0,60.0,1.0
+70,17,65,23.554761904761904,102.49755054886724,Ausência de reação do condutor,Colisão traseira,highway,BR-405,120.6896551724138,24.285714285714285,1.0
+83,5,99,12.399598393574298,89.16054681527449,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-406,166.0,6.024096385542169,1.0
+222,36,253,13.560893310893311,108.29363001645106,Ausência de reação do condutor,Colisão traseira,highway,BR-407,160.8695652173913,16.216216216216218,1.0
+98,18,96,16.358479105928083,100.17891910139423,Ausência de reação do condutor,Colisão traseira,highway,BR-408,142.02898550724638,18.367346938775512,1.0
+19,1,33,14.043859649122806,107.98621944617183,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-410,135.71428571428572,5.263157894736842,1.0
+25,9,43,29.533333333333335,111.78385903867478,Ausência de reação do condutor,Colisão traseira,highway,BR-412,108.69565217391303,36.0,1.0
+122,20,144,12.842408274785324,107.60394033256053,Acessar a via sem observar a presença dos outros veículos,Saída de leito carroçável,highway,BR-414,156.4102564102564,16.39344262295082,1.0
+46,4,69,10.31159420289855,106.1739020962415,Ausência de reação do condutor,Colisão frontal,highway,BR-415,170.37037037037038,8.695652173913043,1.0
+10,5,9,39.25,115.59802806082477,Velocidade Incompatível,Tombamento,highway,BR-416,111.11111111111111,50.0,1.0
+25,5,33,16.833333333333332,117.37706720768679,Ingestão de álcool pelo condutor,Colisão frontal,highway,BR-418,113.63636363636364,20.0,1.0
+10,1,12,16.066666666666666,97.16831460996039,Reação tardia ou ineficiente do condutor,Atropelamento de Animal,highway,BR-419,100.0,10.0,1.0
+22,8,31,26.96212121212121,125.02722798115114,Ausência de reação do condutor,Colisão frontal,highway,BR-420,110.00000000000001,36.36363636363637,1.0
+21,1,28,17.77777777777778,90.78942884341691,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-421,100.0,4.761904761904762,1.0
+128,34,145,18.704427083333332,112.9106858562421,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,highway,BR-423,124.27184466019416,26.5625,1.0
+61,18,66,21.704918032786885,115.22420945027788,Ausência de reação do condutor,Colisão frontal,highway,BR-424,115.09433962264151,29.508196721311474,1.0
+26,2,28,12.564102564102566,87.07682932156747,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-425,144.44444444444443,7.6923076923076925,1.0
+40,5,43,22.97083333333333,97.75277747589415,Reação tardia ou ineficiente do condutor,Colisão traseira,highway,BR-427,117.64705882352942,12.5,1.0
+151,11,197,11.949227373068432,96.48882967185506,Ausência de reação do condutor,Colisão traseira,highway,BR-428,164.1304347826087,7.28476821192053,1.0
+22,6,25,18.333333333333332,104.13536195442657,Ausência de reação do condutor,Tombamento,highway,BR-429,100.0,27.27272727272727,1.0
+1,0,0,0.0,102.75735658750342,Ausência de sinalização,Saída de leito carroçável,highway,BR-431,100.0,0.0,1.0
+20,4,29,16.975,112.09918329817224,Ingestão de álcool pelo condutor,Saída de leito carroçável,highway,BR-432,117.64705882352942,20.0,1.0
+55,5,65,10.770707070707072,91.60272059761571,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-435,114.58333333333333,9.090909090909092,1.0
+4,0,3,5.833333333333333,87.7189651270113,Ausência de reação do condutor,Colisão com objeto,highway,BR-436,100.0,0.0,1.0
+1,0,1,10.0,86.5637943286005,Ausência de reação do condutor,Tombamento,highway,BR-437,100.0,0.0,1.0
+5,1,4,15.666666666666666,106.05696076682966,Acessar a via sem observar a presença dos outros veículos,Atropelamento de Pedestre,highway,BR-447,250.0,20.0,1.0
+66,0,64,5.1814574314574315,91.65926395460797,Ausência de reação do condutor,Colisão traseira,highway,BR-448,220.00000000000003,0.0,1.0
+76,7,65,8.08531746031746,100.1878836585708,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-452,124.59016393442623,9.210526315789473,1.0
+106,13,137,14.064608347627214,120.71479981051782,Velocidade Incompatível,Saída de leito carroçável,highway,BR-459,112.7659574468085,12.264150943396226,1.0
+46,8,49,18.432971014492754,101.14893757709424,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-463,139.3939393939394,17.391304347826086,1.0
+195,4,224,8.397191697191698,123.14427323536759,Ausência de reação do condutor,Colisão transversal,highway,BR-465,609.375,2.051282051282051,1.0
+22,1,25,9.242424242424242,102.14225885296418,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-467,122.22222222222223,4.545454545454546,1.0
+32,6,48,17.213541666666668,110.54627795658492,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-468,103.2258064516129,18.75,1.0
+42,0,46,6.607142857142857,112.97595664140557,Ingestão de álcool pelo condutor,Saída de leito carroçável,highway,BR-469,200.0,0.0,1.0
+1040,94,1195,10.664451173826174,113.13512395603867,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-470,167.20257234726688,9.038461538461538,1.0
+61,3,82,8.814988290398126,102.08687266118646,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-471,117.3076923076923,4.918032786885246,1.0
+80,8,97,11.825595238095238,106.2754553686379,Acessar a via sem observar a presença dos outros veículos,Saída de leito carroçável,highway,BR-472,121.21212121212122,10.0,1.0
+314,34,328,9.872255310153399,114.05849820721856,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,highway,BR-476,153.1707317073171,10.828025477707007,1.0
+46,3,37,10.942028985507246,107.21865635493431,Ingestão de álcool pelo condutor,Colisão traseira,highway,BR-480,135.29411764705884,6.521739130434782,1.0
+1,0,1,15.0,89.34066943616361,Ausência de reação do condutor,Colisão transversal,highway,BR-484,100.0,0.0,1.0
+2,0,1,2.5,99.55108958583965,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,highway,BR-485,100.0,0.0,1.0
+38,8,54,12.270676691729323,122.55311252353867,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-487,111.76470588235294,21.052631578947366,1.0
+18,0,28,10.296296296296296,84.29377329650335,Reação tardia ou ineficiente do condutor,Colisão transversal,highway,BR-488,163.63636363636365,0.0,1.0
+276,16,316,10.012939958592131,105.08189841851357,Ausência de reação do condutor,Saída de leito carroçável,highway,BR-493,255.55555555555554,5.797101449275362,1.0
+24,0,26,5.347222222222222,105.17216272266823,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,highway,BR-495,171.42857142857142,0.0,1.0
+753,37,755,8.315199519382785,85.0437934188295,Ausência de reação do condutor,Colisão traseira,city,BRASILIA,,4.913678618857902,1.0
+599,18,710,8.224328907968307,100.32482678851603,Reação tardia ou ineficiente do condutor,Colisão traseira,city,DUQUE DE CAXIAS,,3.005008347245409,1.0
+591,15,631,8.145348212607095,95.24349119329732,Reação tardia ou ineficiente do condutor,Colisão traseira,city,GUARULHOS,,2.5380710659898478,1.0
+529,11,584,8.268040927776278,109.76862046298919,Reação tardia ou ineficiente do condutor,Colisão traseira,city,SAO JOSE,,2.0793950850661624,1.0
+513,23,515,7.362252034957349,106.79223039112992,Reação tardia ou ineficiente do condutor,Colisão traseira,city,CURITIBA,,4.483430799220272,1.0
+487,16,566,8.92358462892344,112.77155359180915,Ausência de reação do condutor,Colisão traseira,city,BETIM,,3.285420944558522,1.0
+434,16,494,9.830645161290322,91.47775025850504,Ausência de reação do condutor,Colisão traseira,city,SERRA,,3.686635944700461,1.0
+424,12,518,9.213405901190546,112.43366228992969,Reação tardia ou ineficiente do condutor,Colisão traseira,city,PALHOCA,,2.8301886792452833,1.0
+410,19,476,10.279558652729385,97.03454917284148,Ausência de reação do condutor,Colisão traseira,city,RECIFE,,4.634146341463414,1.0
+408,15,484,10.272214441332089,88.44461438650964,Ausência de reação do condutor,Colisão traseira,city,JOAO PESSOA,,3.6764705882352944,1.0
+376,20,408,10.575206855791963,90.99641347307362,Ausência de reação do condutor,Colisão traseira,city,TERESINA,,5.319148936170213,1.0
+339,20,331,8.455541508638854,106.53017730717437,Ausência de reação do condutor,Colisão traseira,city,SAO JOSE DOS PINHAIS,,5.899705014749262,1.0
+318,15,340,8.138739143456124,105.89957631017342,Ausência de reação do condutor,Colisão traseira,city,NOVA IGUACU,,4.716981132075472,1.0
+315,9,362,7.960997732426304,116.79757418059577,Ausência de reação do condutor,Colisão traseira,city,RIO DE JANEIRO,,2.857142857142857,1.0
+305,11,410,9.453626428216593,115.04374137371542,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,ANGRA DOS REIS,,3.606557377049181,1.0
+301,27,327,10.494530900895649,106.40801241217258,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,city,FEIRA DE SANTANA,,8.970099667774086,1.0
+299,11,324,8.098980729415512,94.8387611940434,Reação tardia ou ineficiente do condutor,Colisão traseira,city,SAO JOSE DOS CAMPOS,,3.678929765886288,1.0
+295,15,328,9.414608555286522,92.44814459093641,Condutor deixou de manter distância do veículo da frente,Colisão traseira,city,FORTALEZA,,5.084745762711865,1.0
+286,7,304,8.057109557109557,110.10209789486635,Ausência de reação do condutor,Colisão lateral mesmo sentido,city,ITAJAI,,2.4475524475524475,1.0
+284,12,288,10.2254359490275,96.3434373938949,Ingestão de álcool pelo condutor,Colisão traseira,city,ANAPOLIS,,4.225352112676056,1.0
+283,13,288,10.090694935217902,112.12907955257434,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,city,UBERABA,,4.593639575971731,1.0
+277,17,277,9.501375279353619,116.31077633242224,Ausência de reação do condutor,Colisão traseira,city,UBERLANDIA,,6.137184115523466,1.0
+258,23,323,11.437892211148025,113.12509719168416,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,CAMPOS DOS GOYTACAZES,,8.914728682170542,1.0
+257,10,315,8.962108578840096,115.61154060911565,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,ARAQUARI,,3.8910505836575875,1.0
+255,15,324,9.94640522875817,96.8328703307417,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,LINHARES,,5.88235294117647,1.0
+241,14,247,9.10719225449516,92.11317811667682,Reação tardia ou ineficiente do condutor,Colisão traseira,city,PORTO VELHO,,5.809128630705394,1.0
+241,10,265,7.6764967397747474,106.74859118624832,Reação tardia ou ineficiente do condutor,Colisão traseira,city,SAO GONCALO,,4.149377593360995,1.0
+238,17,266,9.578231292517007,114.22865436586157,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,VITORIA DA CONQUISTA,,7.142857142857142,1.0
+235,26,295,10.299622681060685,112.51393718171958,Ausência de reação do condutor,Colisão transversal,city,CASCAVEL,,11.063829787234042,1.0
+234,21,237,10.806573056573058,96.940633815142,Ausência de reação do condutor,Colisão transversal,city,CAMPO GRANDE,,8.974358974358974,1.0
+234,6,268,8.3011803011803,92.86765792175477,Condutor deixou de manter distância do veículo da frente,Colisão traseira,city,NATAL,,2.564102564102564,1.0
+232,10,256,8.974828332586954,114.5971294151736,Ausência de reação do condutor,Colisão traseira,city,CONTAGEM,,4.310344827586207,1.0
+227,7,267,10.029181049004837,91.91213589744137,Ausência de reação do condutor,Colisão traseira,city,CARIACICA,,3.0837004405286343,1.0
+227,18,260,11.748059576253409,91.98923914425275,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,MOSSORO,,7.929515418502203,1.0
+224,7,244,9.210158021541949,109.42002881098308,Reação tardia ou ineficiente do condutor,Colisão com objeto,city,BIGUACU,,3.125,1.0
+224,16,232,9.931335034013605,93.726650980469,Reação tardia ou ineficiente do condutor,Colisão traseira,city,SAO PAULO,,7.142857142857142,1.0
+214,11,229,9.687138406764573,104.80108736407021,Acessar a via sem observar a presença dos outros veículos,Colisão traseira,city,PETROLINA,,5.14018691588785,1.0
+212,11,218,8.224505840071878,109.91037301988621,Reação tardia ou ineficiente do condutor,Colisão traseira,city,JOINVILLE,,5.188679245283019,1.0
+210,7,238,8.818480725623582,116.21648754642634,Ausência de reação do condutor,Colisão transversal,city,SEROPEDICA,,3.3333333333333335,1.0
+208,3,202,5.979967948717948,93.7482137265328,Manobra de mudança de faixa,Colisão traseira,city,PORTO ALEGRE,,1.4423076923076923,1.0
+199,8,235,10.141541038525963,102.09276107297032,Reação tardia ou ineficiente do condutor,Saída de leito carroçável,city,PETROPOLIS,,4.0201005025125625,1.0
+197,7,203,8.277677060671985,105.96702137017397,Reação tardia ou ineficiente do condutor,Colisão traseira,city,MARINGA,,3.5532994923857872,1.0
+196,8,230,8.386054421768709,108.79859911322242,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,UBATUBA,,4.081632653061225,1.0
+195,1,283,10.157299341782101,126.24656171979878,Acessar a via sem observar a presença dos outros veículos,Colisão transversal,city,GOVERNADOR VALADARES,,0.5128205128205128,1.0
+193,5,239,7.5265646845957725,100.48749410341864,Ausência de reação do condutor,Colisão traseira,city,SALVADOR,,2.5906735751295336,1.0
+189,9,194,9.770093222474175,110.60515028970443,Reação tardia ou ineficiente do condutor,Colisão traseira,city,ITAPEMA,,4.761904761904762,1.0
+184,2,177,5.831392339544513,101.85462934977485,Reação tardia ou ineficiente do condutor,Colisão traseira,city,CANOAS,,1.0869565217391304,1.0
+183,7,194,9.127244340359095,112.83405227655057,Reação tardia ou ineficiente do condutor,Colisão traseira,city,BALNEARIO CAMBORIU,,3.825136612021858,1.0
+181,6,200,7.745001315443305,99.78444711335551,Reação tardia ou ineficiente do condutor,Queda de ocupante de veículo,city,SINOP,,3.314917127071823,1.0
+178,9,202,8.334537185660782,108.35661881126106,Velocidade Incompatível,Saída de leito carroçável,city,CAMPINA GRANDE DO SUL,,5.056179775280898,1.0
